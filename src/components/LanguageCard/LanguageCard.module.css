@@ -1,0 +1,83 @@
+.card {
+  padding: 50px;
+  background: linear-gradient(
+    33.73deg,
+    rgba(36, 34, 31, 0) 26.36%,
+    #1c2127 99.35%
+  );
+}
+
+.title {
+  background: linear-gradient(129.59deg, #fff3e1 27.37%, #dac4a4 63.44%),
+    linear-gradient(132.83deg, #ffffff 28.13%, #ffffff 71.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.description {
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  background: linear-gradient(129.59deg, #a19c92 27.37%, #8a806e 63.44%),
+    linear-gradient(
+      129.59deg,
+      rgba(255, 243, 225, 0.6) 27.37%,
+      rgba(218, 196, 164, 0.6) 63.44%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.tag {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  background: linear-gradient(129.59deg, #a19c92 27.37%, #8a806e 63.44%),
+    linear-gradient(129.59deg, #fff3e1 27.37%, #dac4a4 63.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding: 12px 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(134, 133, 132), rgb(60, 58, 55)) 1;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.input {
+  background: linear-gradient(129.59deg, #a19c92 27.37%, #8a806e 63.44%),
+    linear-gradient(129.59deg, #fff3e1 27.37%, #dac4a4 63.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding: 12px 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(134, 133, 132), rgb(60, 58, 55)) 1;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.alert {
+  display: block;
+  color: tomato;
+}

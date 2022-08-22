@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  font-family: Poppins, sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background: #0d1215;
+  padding-top: 100px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
