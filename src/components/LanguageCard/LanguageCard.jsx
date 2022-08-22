@@ -35,7 +35,7 @@ export class LanguageCard extends Component {
   };
 
   render() {
-    const { language, type, confirmation, name } = this.state;
+    const { language, confirmation, name } = this.state;
 
     return (
       <div className={styles.card}>
@@ -65,7 +65,7 @@ export class LanguageCard extends Component {
                 onChange={props.handleChange}
                 onBlur={props.handleBlur}
                 value={props.values.name}
-                // onChange={this.handleChange}
+              // onChange={this.handleChange}
               />
               <span className={styles.alert}>
                 {props.errors.name && 'Name is required'}
@@ -77,8 +77,8 @@ export class LanguageCard extends Component {
                 onChange={props.handleChange}
                 onBlur={props.handleBlur}
                 value={props.values.type}
-                // value={type}
-                // onChange={this.handleChange}
+              // value={type}
+              // onChange={this.handleChange}
               />
               <span className={styles.alert}>
                 {props.errors.type && props.errors.type}
@@ -89,7 +89,7 @@ export class LanguageCard extends Component {
                 onChange={props.handleChange}
                 onBlur={props.handleBlur}
                 value={props.values.confirmation}
-                // onChange={this.handleChange}
+              // onChange={this.handleChange}
               />
               <div className={styles.description}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
@@ -104,7 +104,7 @@ export class LanguageCard extends Component {
                     value="Css"
                     onChange={props.handleChange}
                     onBlur={props.handleBlur}
-                    // onChange={this.handleChange}
+                  // onChange={this.handleChange}
                   />
                   Css
                 </div>
@@ -115,7 +115,7 @@ export class LanguageCard extends Component {
                     value="React"
                     onChange={props.handleChange}
                     onBlur={props.handleBlur}
-                    // onChange={this.handleChange}
+                  // onChange={this.handleChange}
                   />
                   React
                 </div>
@@ -126,7 +126,7 @@ export class LanguageCard extends Component {
                     value="Node.js"
                     onChange={props.handleChange}
                     onBlur={props.handleBlur}
-                    // onChange={this.handleChange}
+                  // onChange={this.handleChange}
                   />
                   Node.js
                 </div>
