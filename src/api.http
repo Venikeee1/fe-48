@@ -1,0 +1,5 @@
+@baseUrl = https://newsapi.org/v2
+@apiKey = f81fc99f199c4fdb98a5f0d17d87c76c
+
+GET {{baseUrl}}/everything?q=react&apiKey={{apiKey}}
+  Content-type: application/json

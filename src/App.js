@@ -1,15 +1,13 @@
 import { Title } from './UI/Title/Title';
-import { LanguageCard } from './components/LanguageCard/LanguageCard';
 import './App.css';
-import { LanguageFilter } from './components/LanguageFilter/LanguageFilter';
+import { News } from './components/News/News';
 
 function App() {
   return (
     <div className="wrapper">
       <div className="container">
-        <Title>Event delegation</Title>
-        {/* <LanguageCard /> */}
-        <LanguageFilter />
+        <Title>News portal</Title>
+        <News />
       </div>
     </div>
   );

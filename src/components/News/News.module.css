@@ -92,3 +92,8 @@
 .hint {
   color: #fff;
 }
+
+.filters {
+  display: flex;
+  gap: 15px;
+}
